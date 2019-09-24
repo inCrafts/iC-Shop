@@ -1,0 +1,16 @@
+/*    Fonts    */
+
+@import "fonts.css";
+@import "core.css";
+@import "blocks/header.css";
+@import "blocks/logo.css";
+@import "blocks/nav.css";
+@import "blocks/content.css";
+@import "blocks/instagram.css";
+@import "blocks/footer.css";
+@import "blocks/socials.css";
+
+
+/*    Colors    */
+
+/*Nav:hover:    color: #f84545;*/
