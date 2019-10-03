@@ -1,0 +1,31 @@
+.craftrooms__wrap {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(25rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    grid-gap: 7rem;
+    margin-top: 28rem;
+    margin-bottom: 18rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    box-sizing: border-box;
+}
+
+.craftroom {
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.craftroom__title {
+    align-self: center;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.craftroom__icon {
+    margin-top: 3rem;
+}

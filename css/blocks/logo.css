@@ -1,0 +1,12 @@
+.header__logo {
+    height: 25.5rem;
+    display: grid;
+}
+
+.logo__link {
+    margin: auto;
+}
+
+@media (max-width: 1100px) {
+
+}

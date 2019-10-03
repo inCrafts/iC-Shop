@@ -3,12 +3,12 @@
 @import "fonts.css";
 @import "core.css";
 @import "blocks/header.css";
+@import "blocks/nav-top.css";
 @import "blocks/logo.css";
-@import "blocks/nav.css";
-@import "blocks/content.css";
-@import "blocks/instagram.css";
-@import "blocks/footer.css";
-@import "blocks/socials.css";
+@import "blocks/nav-main.css";
+@import "blocks/craftrooms.css";
+@import "blocks/info.css";
+
 
 
 /*    Colors    */
