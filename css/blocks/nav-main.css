@@ -1,5 +1,4 @@
 .header__nav-main {
-    border-top: .1rem solid #bfbfbf;
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -8,21 +7,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    grid-gap: 1.5rem;
-}
-
-.nav-main__item:first-child {
-    text-align: left;
-}
-
-.nav-main__item:last-child {
-    text-align: right;
+    grid-gap: 5rem;
+    border-top: .1rem solid #bfbfbf;
 }
 
 .nav-main__item {
     list-style: none;
     text-align: center;
     align-items: center;
+}
+
+.nav-main__item:first-child {
+    padding-left: 7rem;
+    text-align: left;
+}
+
+.nav-main__item:last-child {
+    padding-right: 7rem;
+    text-align: right;
 }
 
 .nav-main__link {
@@ -35,3 +37,8 @@
     color: #000000;
     cursor: pointer;
 }
+
+.nav-main__item:hover {
+    /*background-color: #e5e5e5;*/
+}
+

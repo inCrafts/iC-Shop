@@ -59,7 +59,7 @@
     background-color: #ffffff;
     color: #e38531;
     cursor: pointer;
-    border: 1px solid #e38531;
+    border: .1rem solid #e38531;
 }
 
 .contact {
@@ -72,8 +72,8 @@
 
 .contact__svg {
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 3.5rem;
+    height: 3.5rem;
     margin-right: 1.5rem;
     fill: #ffffff;
 }
@@ -102,4 +102,20 @@
     padding-bottom: .5rem;
     border-bottom: .2rem solid #ffffff;
     cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+
+}
+
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 540px) {
+
+}
+
+@media (max-width: 320px) {
+
 }

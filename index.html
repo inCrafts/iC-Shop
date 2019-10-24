@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -11,14 +11,16 @@
 <body>
     <div class="page">
         <header class="header">
-            <div class="header__wrap wrap">
+<!--            <div class="header__wrap wrap">-->
                 <nav class="header__nav-top">
-                    <ul class="nav-top__list">
-                        <li class="nav-top__item"><a href="#" class="nav-top__link">ГБУ РЦДИ «Ремесла»</a></li>
-                        <li class="nav-top__item"><a href="#" class="nav-top__link">О центре</a></li>
-                        <li class="nav-top__item"><a href="#" class="nav-top__link">Сайт</a></li>
-                        <li class="nav-top__item"><a href="#" class="nav-top__link">Контакты</a></li>
-                    </ul>
+                    <div class="nav-top__wrap wrap">
+                        <ul class="nav-top__list">
+                            <li class="nav-top__item"><a href="pages/product-list.html" class="nav-top__link">ГБУ РЦДИ «Ремесла»</a></li>
+                            <li class="nav-top__item"><a href="#" class="nav-top__link">О центре</a></li>
+                            <li class="nav-top__item"><a href="#" class="nav-top__link">Сайт</a></li>
+                            <li class="nav-top__item"><a href="#" class="nav-top__link">Контакты</a></li>
+                        </ul>
+                    </div>
                 </nav>
 
                 <h1 class="header__logo logo">
@@ -39,12 +41,20 @@
                         </ul>
                     </div>
                 </nav>
-            </div>
         </header>
+
+        <section class="banner"></section>
+
+        <div class="breadcrumbs__wrap wrap">
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs_item"><a href="#" class="breadcrumbs__link">Главная</a></li>
+                <li class="breadcrumbs_item"><a href="#" class="breadcrumbs__link">Мастерские</a></li>
+            </ul>
+        </div>
 
         <main class="craftrooms">
             <div class="craftrooms__wrap wrap">
-                <a href="#" class="craftroom">
+                <a href="pages/product-list.html" class="craftroom">
                     <h2 class="craftroom__title">Гончарная<br> мастерская</h2>
                     <img src="img/Craftrooms/pottery.png" alt="Гончарная мастерская" class="craftroom__icon">
                 </a>
@@ -71,7 +81,7 @@
 
                 <a href="#" class="craftroom">
                     <h2 class="craftroom__title">Мыловаренная<br> и свечная<br> мастерская</h2>
-                    <img src="img/Craftrooms/no-image.png" alt="Мыловаренная и свечсная мастерская" class="craftroom__icon">
+                    <img src="img/Craftrooms/no-image.png" alt="Мыловаренная и свечная мастерская" class="craftroom__icon">
                 </a>
 
                 <a href="#" class="craftroom">
@@ -146,5 +156,6 @@
             </div>
         </footer>
     </div>
+<script src="js/main.js"></script>
 </body>
 </html>

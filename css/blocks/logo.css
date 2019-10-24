@@ -10,3 +10,27 @@
 @media (max-width: 1100px) {
 
 }
+
+
+@media (max-width: 640px) {
+    .logo__img {
+        max-width: 40rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .logo__img {
+        max-width: 30rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .header__logo {
+        padding: 0 5vw;
+        display: grid;
+    }
+    .logo__img {
+        max-width: 20rem;
+    }
+}

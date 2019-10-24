@@ -31,4 +31,5 @@ body {
     min-width: 290px;
     margin: 0 auto;
     padding: 0 1.5rem;
+    box-sizing: border-box;
 }
